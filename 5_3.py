@@ -1,7 +1,7 @@
 n=int(input('Введите число: '))
 c=0
 i=0
-for i in range (n):
+for i in range (n+1):
         while i % 2 == 0 and i>=2:
             c = c + 1
             if c % 5 == 0:
